@@ -34,8 +34,8 @@
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/abby_bounty"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="abby_bounty" /></a></p><br><br>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=abbbybounty&show_icons=true&locale=en&layout=compact" alt="abbbybounty" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=AbbbyBounty&show_icons=true&locale=en&layout=compact" alt="abbbybounty" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=abbbybounty&show_icons=true&locale=en" alt="abbbybounty" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=AbbbyBounty&show_icons=true&locale=en" alt="abbbybounty" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abbbybounty&" alt="abbbybounty" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=AbbbyBounty&" alt="abbbybounty" /></p>
