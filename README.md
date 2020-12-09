@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm Abhilash</h1>
 <h3 align="center">Full Stack Developer | DevOps | MEAN Stack | Docker</h3>
 
+<p align="center">
+  <img src="https://i.imgur.com/IjxKlOy.gif" alt="bio"></center>
+</p>
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abbybounty&label=Profile%20views&color=0e75b6&style=flat" alt="abbybounty" /> </p>
 
 <p align="left"> <a href="https://twitter.com/abby_bounty" target="blank"><img src="https://img.shields.io/twitter/follow/abby_bounty?logo=twitter&style=for-the-badge" alt="abby_bounty" /></a> </p>
