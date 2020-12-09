@@ -5,6 +5,8 @@
   <img src="https://i.imgur.com/IjxKlOy.gif" alt="bio"></center>
 </p>
 
+<img src="https://github-readme-stats.vercel.app/api/?username=AbbyBounty&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" alt="Stats" align="right">
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abbybounty&label=Profile%20views&color=0e75b6&style=flat" alt="abbybounty" /> </p>
 
 <p align="left"> <a href="https://twitter.com/abby_bounty" target="blank"><img src="https://img.shields.io/twitter/follow/abby_bounty?logo=twitter&style=for-the-badge" alt="abby_bounty" /></a> </p>
