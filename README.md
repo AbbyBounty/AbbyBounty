@@ -1,7 +1,156 @@
 <h1 align="center">Hi 👋, I'm Abhilash</h1>
 <h3 align="center">Full Stack Developer | DevOps | MEAN Stack | Docker</h3>
 
-<img src="https://codepen.io/abbybounty/pen/vYXXJrj">
+<div class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="abbybounty" data-slug-hash="vYXXJrj" data-prefill='{"title":"Knockout.js Typewriter Effect","description":"A cleanly composed Knockout.js custom binding to emulate a typewriter effect. Provided an array of strings, enables control of speed, pause and infinite looping.","tags":["javascript","typewriter","knockout-binding","typing","knockout"],"scripts":["https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"],"stylesheets":[]}'>
+  <pre data-lang="html">&lt;div class="center">
+  
+  &lt;div class="content">
+    
+    &lt;h1 class="title" >Abhilash Kamble&lt;/h1>
+    
+    &lt;h2 class="title">&nbsp;
+      &lt;span class="red-emph" data-bind="typewriter: { words: ['Full Stack Developer', 'problem solver.', 'MEAN Stack', 'Angular','Docker','AWS','Microservices','spring boot','java','javascript','NodeJS','MongoDB','Express'], speed: 30, iterations: 1, pause: 250 }">&lt;/span>      
+    &lt;/h2>		
+    
+  &lt;/div>		
+  
+&lt;/div></pre>
+  <pre data-lang="css">.center{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {			
+  font-weight: 200;
+  text-align: center;
+}
+
+h1.title {
+  font-size: 4.5em;
+}
+
+h2.title {
+  font-size: 2em;
+}
+
+.red-emph {
+  border-bottom: 2px solid #ce3635;
+  padding-bottom: .125em;
+}
+
+.content {
+  box-sizing: border-box;
+  padding: 4rem;
+  width: 100%;
+}
+
+/* hydrogen.css (https://github.com/pimbrouwers/HydrogenCSS) */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:sans-serif}body{margin:0;font:16px/1 -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}blockquote,figure,h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0;padding:0;line-height:1.5}li,main{display:block}strong{font-weight:700}a,button{color:inherit;transition:background .3s}a{text-decoration:none}button{overflow:visible;border:0;font:inherit;-webkit-font-smoothing:inherit;letter-spacing:inherit;background:0 0;cursor:pointer}::-moz-focus-inner{padding:0;border:0}:focus{outline:0}img{max-width:100%;height:auto;border:0}.h-c{margin:0 auto;max-width:76.5em;padding:0 1.5em}.h-c>.h-g{margin:0 -1.5em}.h-c .h-g .h-g{margin:0 -1.5em}.h-c .h-u{padding:0 1.5em}.h-g{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start}.h-g:after{content:"";clear:both;display:table}@media only screen{.h-u{float:left;width:100%;box-sizing:border-box}}.h-btn{background:#ddd;display:inline-block;padding:.75em 1.5em}.h-btn:hover{background:#c4c4c4}.h-btn[disabled]{opacity:.4;cursor:not-allowed}.h-btn[disabled]:hover{background:#ddd}.h-form fieldset{border:0;margin:0;padding:0}.h-form legend{border-bottom:1px solid #ddd;display:block;margin:.75em 0;padding:.75em 0;width:100%}.h-form input,.h-form select,.h-form textarea{border:1px solid #ddd;font:inherit;margin:0 0 .75em;padding:.75em}.h-form input:focus,.h-form select:focus,.h-form textarea:focus{border-color:#c4c4c4}.h-form input[required]:focus,.h-form select[required]:focus,.h-form textarea[required]:focus{border-color:red}.h-form input[disabled],.h-form select[disabled],.h-form textarea[disabled]{background:#efefef;cursor:not-allowed}.h-form input[type=checkbox]{margin:3px 3px 3px 4px}.h-form.h-form-stack input,.h-form.h-form-stack label,.h-form.h-form-stack select,.h-form.h-form-stack textarea{display:block}.h-form.h-form-stack input[type=checkbox]{display:inline-block}.h-list li{display:list-item;margin-left:1.5em}.h-menu li>a,.h-menu li>span{display:inline-block;margin:0;padding:.75em 1.5em}.h-menu li>span{font-weight:700}.h-menu li:first-child>span{padding-left:0}.h-menu.h-menu-inline li{display:inline-block}.h-tbl{border-collapse:collapse;width:100%;max-width:100%}.h-tbl td,.h-tbl th{padding:.75em}.h-tbl th{border-bottom:2px solid #ddd;text-align:left}.h-tbl td{border-top:1px solid #eaeaea}</pre>
+  <pre data-lang="js">function Typewriter(element)
+{
+	this.element = element;
+	this.iterations = 1; //-1 for infinite
+	this.pause = 250;
+	this.speed = 100;
+	this.words = [];
+	
+	//internal counters
+	this.charCounter = 0;
+	this.iterationCounter = 0;
+	this.wordIndex = 0;
+
+	return this;
+};
+
+Typewriter.prototype.run = function(){			
+	console.log(this);
+	setTimeout(this.type.bind(this), this.pause);
+};
+
+Typewriter.prototype.speedPlusRandom = function(speed){
+	return Math.floor((Math.random() * 50) + 1) + speed;
+};
+
+Typewriter.prototype.type = function(){
+	if(this.charCounter &lt; this.words[this.wordIndex].length)
+	{
+		//typing
+		this.element.innerHTML += this.words[this.wordIndex].charAt(this.charCounter);
+		this.charCounter++;
+		setTimeout(this.type.bind(this), this.speedPlusRandom(this.speed));
+	}
+	else if(this.wordIndex + 1 &lt; this.words.length || this.iterationCounter + 1 &lt; this.iterations || this.iterations === -1)
+	{
+		//start untyping if we're not on the last word						
+		setTimeout(this.untype.bind(this), this.pause);
+	}
+};
+
+Typewriter.prototype.untype = function(){
+	if(this.charCounter > 0)
+	{			
+		//untyping			
+		this.element.innerHTML = this.words[this.wordIndex].substring(0, this.charCounter - 1);
+		this.charCounter--;
+		setTimeout(this.untype.bind(this), this.speedPlusRandom(this.speed));
+	}
+	else if(this.wordIndex + 1 &lt; this.words.length){
+		this.wordIndex++;						
+
+		//start typing with next word (if exists)
+		setTimeout(this.type.bind(this), this.pause);
+	}
+	else if(this.iterationCounter + 1 &lt; this.iterations || this.iterations === -1)
+	{
+		this.wordIndex = 0;
+		
+		//start typing with first word (if exists)
+		setTimeout(this.type.bind(this), this.pause);
+	}
+};
+
+Typewriter.prototype.withIterations = function(iterations){
+	if(iterations) this.iterations = iterations;
+	return this;
+};
+
+Typewriter.prototype.withPause = function(pause){
+	if(pause) this.pause = pause;
+	return this;
+};
+
+Typewriter.prototype.withSpeed = function(speed){
+	if(speed) this.speed = speed;
+	return this;
+};
+
+Typewriter.prototype.withWords = function(words){
+	if(words) this.words = words;
+	return this;
+};
+
+ko.bindingHandlers.typewriter = {
+	init: function(element, valueAccessor){
+		var options = ko.unwrap(valueAccessor());
+
+		var typewriter = new Typewriter(element)
+													.withIterations(options.iterations)
+													.withPause(options.pause)
+													.withSpeed(options.speed)
+													.withWords(options.words);
+
+		typewriter.run();
+	}
+};
+
+
+window.onload = function(){
+  ko.applyBindings({});
+};</pre></div>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
 <img src="https://github-readme-stats.vercel.app/api/?username=AbbyBounty&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" alt="Stats" align="right">
