@@ -1,12 +1,8 @@
 <h1 align="center">Hi 👋, I'm Abhilash</h1>
 <h3 align="center">Full Stack Developer | DevOps | MEAN Stack | Docker</h3>
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="abbybounty" data-slug-hash="vYXXJrj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Knockout.js Typewriter Effect">
-  <span>See the Pen <a href="https://codepen.io/abbybounty/pen/vYXXJrj">
-  Knockout.js Typewriter Effect</a> by Abhilash Kamble (<a href="https://codepen.io/abbybounty">@abbybounty</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<div>
+  </div>
 <img src="https://github-readme-stats.vercel.app/api/?username=AbbyBounty&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" alt="Stats" align="right">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abbybounty&label=Profile%20views&color=0e75b6&style=flat" alt="abbybounty" /> </p>
