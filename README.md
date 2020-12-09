@@ -2,10 +2,9 @@
 <h3 align="center">Full Stack Developer | DevOps | MEAN Stack | Docker</h3>
 
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Vanilla JS Typewriter" src="https://codepen.io/abbybounty/embed/yLaaoeW?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/abbybounty/pen/yLaaoeW'>Vanilla JS Typewriter</a> by Abhilash Kamble
-  (<a href='https://codepen.io/abbybounty'>@abbybounty</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<p align="center">
+  <img src="https://imgur.com/Wdkr7Pk" alt="bio"></center>
+</p>
 
 <img src="https://github-readme-stats.vercel.app/api/?username=AbbyBounty&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" alt="Stats" align="right">
 
