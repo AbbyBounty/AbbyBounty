@@ -9,11 +9,11 @@
 
 <p align="left"> <a href="https://twitter.com/abby_bounty" target="blank"><img src="https://img.shields.io/twitter/follow/abby_bounty?logo=twitter&style=for-the-badge" alt="abby_bounty" /></a> </p>
 
-- 🔭 I’m currently working on **DevOps**
+- 🔭 I’m currently working on **React, Docker  **
 
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **AWS**
 
-- 💬 Ask me about **Angular , Spring boot**
+- 💬 Ask me about **React, Node.js, Docker**
 
 - 📫 How to reach me **abhilash.kamble376@gmail.com**
 
